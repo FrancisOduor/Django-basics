@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Shopella</title>
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+
+
+
+
+
+</head>
+<body>
+
+    <h1 class="text-center text-warning">Contact Us</h1>
+
+    <a href="{% url 'index' %}">Home</a>
+
+    <a href="{% url 'about' %}">About us</a>
+
+    <a href="/services">Services</a>
+
+
+
+    <p>Have questions or feedback? We'd love to hear from you!</p>
+
+    
+    <table class ="table table-bordered" > 
+        <tr>    
+            <th>Full Name</th>
+            <th>Email Address</th>
+            <th>Phone Number</th>
+        </tr>
+
+        <tr class="table-danger">
+            <td>John Doe</td>
+            <td>john.doe@example.com</td>
+            <td>0756 389 678</td>
+        </tr>
+
+        <tr>
+            <td>Jane Smith</td>
+            <td>jane.smith@example.com</td>
+            <td>0756 389 679</td>
+        </tr>
+
+        <tr class="table-warning">
+            <td>Michael Johnson</td>
+            <td>michael.johnson@example.com</td>
+            <td>0756 389 680</td>
+        </tr>
+
+        <tr>
+            <td>Emily Davis</td>
+            <td>emily.davis@example.com</td>
+            <td>0756 389 681</td>
+        </tr>
+
+    </table>
+
+
+
+
+
+</body>
+</html>

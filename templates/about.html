@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Shopella</title>
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+
+
+
+
+</head>
+<body>
+
+    <h1>About us!</h1>
+
+    <a href="{% url 'contact' %}">Contact us</a>
+
+    <a href="{% url 'index' %}">Home</a>
+
+    <a href="/services">Services</a>
+
+
+    <img src="{% static 'images/about.png' %}" alt="About Image" class="about-image">
+
+
+    <p>Welcome to Shopella! We are a passionate team dedicated to providing the best shopping experience possible.</p>
+</body>
+</html>
